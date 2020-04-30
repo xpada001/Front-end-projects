@@ -1,0 +1,24 @@
+The snake game
+
+Press any of the keys <W,A,S,D> to start playing;
+Press 'p' to pause the game and 'q' to quit the game at any time;
+When game is over, the player's score is shown, and the player can press 'r' to restart the game, or 'q' to quit the game.
+
+Rules:
+  eat the fruit that is populated randomly to increase your score, which is shown at left bottom corner;
+  use the gap between borders to travel to the other side of the screen;
+  game is over if it eats itself or hit the border or the middle obstacle;
+  
+Control: 
+  use <W,A,S,D> to go up, left, down, right, respectively.
+
+Enhancements: 
+  1. For every 10 points that the player scored, the speed of the snake will increase (until a certain max playable speed) in order to make the game more challenging.
+  2. Borders are created with a gap on each side of the screen that allows the snake to go through to get to the other side of the screen, middle obstacle is also created 
+      that the snake must avoid.
+  
+Development environement: 
+  the game is designed in C++ and Xlib, running on Linux environment, compiled and tested with g++ 14.
+  
+Note: 
+  Since I added the feature of increasing the speed as game goes on, the initial speed might be slower than usual, but still playable.

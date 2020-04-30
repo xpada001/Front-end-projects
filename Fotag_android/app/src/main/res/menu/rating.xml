@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ratingMenu"
+    tools:context=".MainActivity">
+
+    <!--<item-->
+    <!--android:id="@+id/loadPics"-->
+    <!--android:icon="@drawable/ic_file_upload_black_24dp"-->
+    <!--android:title="load"-->
+    <!--app:showAsAction="always"></item>-->
+
+    <!--<item-->
+    <!--android:id="@+id/clearPics"-->
+    <!--android:icon="@drawable/ic_delete_black_24dp"-->
+    <!--android:title="delete"-->
+    <!--app:showAsAction="always"></item>-->
+
+    <!--<item-->
+        <!--android:id="@+id/search"-->
+        <!--android:icon="@drawable/ic_search_black_24dp"-->
+        <!--android:title="search"-->
+        <!--app:showAsAction="always"></item>-->
+
+    <item
+        android:id="@+id/rating1"
+        android:layout_height="match_parent"
+        android:icon="@drawable/ic_star_border_black_24dp"
+        android:title="rating1"
+        app:showAsAction="always"></item>
+    <item
+        android:id="@+id/rating2"
+        android:icon="@drawable/ic_star_border_black_24dp"
+        android:title="rating2"
+        app:showAsAction="always"></item>
+    <item
+        android:id="@+id/rating3"
+        android:icon="@drawable/ic_star_border_black_24dp"
+        android:title="rating3"
+        app:showAsAction="always"></item>
+    <item
+        android:id="@+id/rating4"
+        android:icon="@drawable/ic_star_border_black_24dp"
+        android:title="rating4"
+        app:showAsAction="always"></item>
+    <item
+        android:id="@+id/rating5"
+        android:icon="@drawable/ic_star_border_black_24dp"
+        android:title="rating5"
+        app:showAsAction="always"></item>
+    <item
+        android:id="@+id/erase"
+        android:icon="@drawable/ic_cancel_black_24dp"
+        android:title="erase"
+        app:showAsAction="always"></item>
+</menu>

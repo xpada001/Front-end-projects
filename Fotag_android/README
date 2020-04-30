@@ -1,0 +1,21 @@
+CS349 A4 Fotag Mobile
+
+Description and features: 
+
+When first launching the app, it is assumed that the app is always in portrait mode first. Only one tool bar is on top of the screen, where it contains the rating filter bar and a menu that contains three buttons: 
+load, search, clear, where load and clear have functions described in the assignment, and only the layout of search dialog has completed. The app name Fotag(sachen) can be seen in landscape mode.
+
+To clear the rating of each individual image, user has to swipe all the way to the left of a rating bar.
+
+If users click load button while rank filter is not 0, the image will not be shown as it has filter on it.Click on the X next to the filter to clear filtering
+
+Single click on any image to enter full screen with that image, click again to go back to the main app.
+
+If users click load button more than once consecutively, the second time will not have any effect as the images are already loaded after the first click.
+
+If users are on full screen mode then rotate, the full screen image rotates with the screen.
+
+the "Clear" button will clear everything, including the filter. 
+
+
+The application is implemented and tested using Android Studio with Pixel (Google Phone) AVD using API 26.
