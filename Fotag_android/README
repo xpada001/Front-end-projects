@@ -1,4 +1,4 @@
-CS349 A4 Fotag Mobile
+Fotag Mobile
 
 Description and features: 
 
@@ -16,6 +16,5 @@ If users click load button more than once consecutively, the second time will no
 If users are on full screen mode then rotate, the full screen image rotates with the screen.
 
 the "Clear" button will clear everything, including the filter. 
-
 
 The application is implemented and tested using Android Studio with Pixel (Google Phone) AVD using API 26.
