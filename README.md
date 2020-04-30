@@ -1,2 +1,2 @@
 # Front-end-project
-Past interesting java projects 
+Past interesting (mainly) java projects 
